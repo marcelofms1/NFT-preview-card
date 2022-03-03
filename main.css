@@ -13,8 +13,6 @@ img{
 #main_logo{
     width:76%;
     position:absolute;
-    transition: .5s ease-in-out;
-    background-color: blue;
 }
 
 .container{
@@ -93,7 +91,6 @@ img{
     #main_logo{
         width:20%;
         position:absolute;
-        transition: .5s ease-in-out;
         background-color: blue;
     }
 
@@ -101,6 +98,8 @@ img{
        margin-top:-10%;
    }
     #main_logo:hover{
+        transition: .5s ease-in-out;
+
         opacity:.5;        
     }
 }
