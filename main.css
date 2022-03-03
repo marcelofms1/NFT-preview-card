@@ -97,10 +97,6 @@ img{
         background-color: blue;
     }
 
-    .container, #main_logo, .eye #eye_img img{
-        width:20%;
-    }
-
    .footer{
        margin-top:-10%;
    }
