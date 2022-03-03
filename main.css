@@ -1,0 +1,110 @@
+body{
+    background-color:hsl(217, 54%, 11%);
+    font-family: 'Bellota Text', cursive;
+    color:hsl(215, 32%, 42%);
+    font-size:18px
+}
+
+img{
+    width:100%;
+    border-radius:2em;
+}
+
+#main_logo{
+    width:76%;
+    position:absolute;
+    transition: .5s ease-in-out;
+    background-color: blue;
+}
+
+.container{
+    margin:auto;
+    width:80%;
+    border-radius:2em;
+    padding:1.3em;
+    background-color:hsl(216, 50%, 16%);
+}
+
+.container h3{
+    font-weight: 900;
+    color:white;
+}
+
+.time_section{
+    display:flex;
+    justify-content: space-between;
+}
+
+.info_sec{
+    width:40%;
+    display:flex;
+    /* border:1px solid red; */
+}
+
+.time_section img{
+    padding-right:2%;
+    align-self:center;
+}
+
+#pendant_sec{
+    color:hsl(178, 100%, 50%);
+}
+
+#pendant_sec img{
+    height:50%;
+    width:12%;
+}
+
+#clock_sec img{
+    height:55%;
+    width:27%;
+}
+
+#devider{
+    margin-top:-5%;
+}
+
+.footer img{
+    width:20%;
+    padding-right:1em;
+    align-self: center;
+    /* outline:1px solid white; */
+}
+.footer{
+    margin-top:-5%;
+    /* outline:1px solid red; */
+    display:flex;
+    color: white;
+}
+.footer p{
+    align-self: center;
+}
+
+@media only screen and (min-width: 1440px){
+    .container{
+        /* margin:auto; */
+        width:20%;
+        margin-top:5em;
+    }
+
+    h3:hover{
+        color:hsl(178, 100%, 50%);
+    }
+    #main_logo{
+        width:20%;
+        position:absolute;
+        transition: .5s ease-in-out;
+        background-color: blue;
+    }
+
+    .container, #main_logo, .eye #eye_img img{
+        width:20%;
+    }
+
+   .footer{
+       margin-top:-10%;
+   }
+    #main_logo:hover{
+        opacity:.5;        
+    }
+}
